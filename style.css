@@ -5,12 +5,26 @@
 .text-primary{
     color: #FD6E0A;
 }
+.btn-primary{
+    height: 72px;
+    border: 5px;
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 24px;
+    border: 0px;
+    padding: 18px 36px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
 
 /* header & navigation style */
+header{
+    border: 1px solid black;
+
+}
 nav{
     border: 1px solid red;
     display: flex;
-    /* position: absolute; */
     justify-content: space-between;
     margin: 50px 100px;
     align-items: center;
@@ -21,8 +35,36 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
-    margin-left: 25px;
+    margin-left: 50px;
+}
+/* Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.banner-title{
+    font-weight: 600px;
+    font-size: 70px;
+    text-shadow: 2px 3px 6px #FD6E0A;
+}
+.banner-subtitle{
+    font-weight: 600px;
+    font-size: 30px;
+}
+.banner-description{
+    color:gray;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 40px;
+}
+.banner button{
+    margin-right: 20px;
+
 }

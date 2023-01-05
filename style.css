@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* header & navigation style */
+nav{
+    border: 1px solid red;
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-between;
+    margin: 50px 100px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 25px;
+}
